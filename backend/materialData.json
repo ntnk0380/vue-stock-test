@@ -1,0 +1,38 @@
+[
+  {
+    "Id": 1,
+    "Material": "MAT0001",
+    "ProductCode": "PC000001",
+    "Description": "Material test 01"
+  },
+  {
+    "Id": 2,
+    "Material": "MAT0002",
+    "ProductCode": "PC000002",
+    "Description": "Material test 02"
+  },
+  {
+    "Id": 3,
+    "Material": "MAT0003",
+    "ProductCode": "PC000003",
+    "Description": "Material test 03"
+  },
+  {
+    "Id": 4,
+    "Material": "MAT0004",
+    "ProductCode": "PC000004",
+    "Description": "Material test 04"
+  },
+  {
+    "Id": 5,
+    "Material": "MAT0005",
+    "ProductCode": "PC000005",
+    "Description": "Material test 05"
+  },
+  {
+    "Id": 6,
+    "Material": "MAT0005",
+    "ProductCode": "PC000005",
+    "Description": "Material test 05"
+  }
+]

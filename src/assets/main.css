@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'THSarabunNew';
+  src: url('./fonts/THSarabunNew.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'THSarabunNew';
+  src: url('./fonts/THSarabunNew_Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'THSarabunNew';
+  src: url('./fonts/THSarabunNew_Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'THSarabunNew';
+  src: url('./fonts/THSarabunNew_BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+:root{
+  --font-family: 'THSarabunNew';
+}
+body{
+  font-family: 'THSarabunNew';
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* form */
+.q-field--outlined.q-field--rounded .q-field__control {
+  border-radius: 8px;
+}
+.q-field__native {
+  font-weight: bold;
+}
+.q-btn--rounded.my-btn {
+  border-radius: 8px;
+}
+.q-btn.my-btn {
+  font-weight: bold;
+}
+.q-btn.h-40 {
+  height: 40px;
+}
+.q-btn.my-btn span.q-btn__content > span {
+  font-size: 22px;
+}
+.my-card {
+  width: 100%;
+  border-radius: 8px;
+}
+.my-table {
+  border-radius: 8px;
+}
+.my-table .q-table__sort-icon{
+  font-size: 70%;
+}
+.my-page .q-btn--rectangle {
+  border-radius: 8px;
+}
+
+label.req::before {
+  display: inline-block;
+  margin-right: 4px;
+  color: #f5222d;
+  font-size: 14px;
+  font-family: SimSun,sans-serif;
+  line-height: 1;
+  content: '*';
+}
+label.req ~ .q-field .q-field__control {
+  color: #f5222d;
+}
